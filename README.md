@@ -9,29 +9,31 @@
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Run the Gatsby site**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Run the Gatsby site by switching to the folder and running the following command:
 
     ```shell
     # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    gatsby develop
     ```
 
-2.  **Start developing.**
+2.  **Navigating the site**
 
-    Navigate into your new site’s directory and start it up.
+    Go to your local host and you will see the site. Simply click the links to navigate to different pages.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   
 
-3.  **Open the code and start customizing!**
+3.  **Navigating the PokeDex**
 
-    Your site is now running at http://localhost:8000!
+    To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
+    The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
+    This is done in the 'gatsby-node.js' file
+    To see more information on a particular Pokemon, click the sprite or their name, and you will be taken to a different page
+    with stat information for that particular Pokemon.
+    To go back to the previous page to look at more Pokemon, click the 'Back to all Pokemon' link under the stats.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    
 
 4.  **Learn more**
 

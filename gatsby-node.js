@@ -20,7 +20,7 @@ const getPokemonData = names =>
 
 exports.createPages = async ({ actions: { createPage } }) => {
   var pokeCount = [];
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 151; i++) {
         pokeCount.push(i);
     }
   const allPokemon = await getPokemonData(pokeCount)
