@@ -26,12 +26,11 @@
 
 3.  **Navigating the PokeDex**
 
-    To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
-    The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
-    This is done in the 'gatsby-node.js' file
-    To see more information on a particular Pokemon, click the sprite or their name, and you will be taken to a different page
-    with stat information for that particular Pokemon.
-    To go back to the previous page to look at more Pokemon, click the 'Back to all Pokemon' link under the stats.
+    - To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
+    - The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
+    - This is done in the 'gatsby-node.js' file.
+    - To see more information on a particular Pokemon, click the sprite or their name, and you will be taken to a different page with stat information for that particular Pokemon.
+    - To go back to the previous page to look at more Pokemon, click the 'Back to all Pokemon' link under the stats.
 
     
 
