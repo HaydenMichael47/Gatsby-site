@@ -11,6 +11,7 @@ const Pokedex = ({ pageContext: { allPokemon } }) => {
   <div style={{ width: 960, margin: '4rem auto', alignContent: 'left' }}>
     <h1 style={{ fontFamily: "SF Movie Poster", fontSize: "200%", color: "#e8332a" }}>Choose a Pokémon!</h1>
     <ul style={{ padding: 0, marginLeft: 'auto', marginRight: 'auto'  }}>
+    
       {allPokemon.map(pokemon => (
         
         <li
@@ -19,6 +20,7 @@ const Pokedex = ({ pageContext: { allPokemon } }) => {
             textAlign: 'center',
             listStyle: 'none',
             display: 'inline-block'
+            
           }}
         >
          

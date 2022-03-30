@@ -16,10 +16,34 @@
     margin: 0%;
     font-family: "SF Movie Poster", cursive;
     color:azure;
+    position: fixed;
+    font-size: 125%;
+    left: 0;
+    
+    right: 0;
+    top: 0%;
+}
+#PokeFooter{
+  background-color: #e8332a;
+    padding: 0%;
+    margin: 0%;
+    font-family: "SF Movie Poster", cursive;
+    color:azure;
+    
+    font-size: 125%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 5%;
 }
 #mainDiv{
    text-align: center;
    
+}
+#secondDiv{
+  position: relative;
+  margin-top: 5%;
 }
 #link{
     font-family: "SF Movie Poster", cursive;
@@ -47,4 +71,11 @@ table {
   tr:nth-child(even) {
     background-color: #e8332a;
     color:azure;
+  }
+  #weightHeight{
+    text-align: center;
+    align-self: left;
+    align-items: left;
+    align-content: left;
+    font-family: "SF Movie Poster", cursive;
   }
