@@ -14,7 +14,7 @@
     Run the Gatsby site by switching to the folder and running the following command:
 
     ```shell
-    # create a new Gatsby site using the minimal starter
+   
     gatsby develop
     ```
 
@@ -29,24 +29,14 @@
     - To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
     - The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
     - This is done in the 'gatsby-node.js' file.
+    - To search for specific Pokemon, start typing the name of the Pokemon in the search bar, and it will automatically update with related Pokemon.
+    - If there are none, the page will be blank and you have to remove the text from the search bar.
     - To see more information on a particular Pokemon, click the sprite or their name, and you will be taken to a different page with stat information for that particular Pokemon.
     - To go back to the previous page to look at more Pokemon, click the 'Back to all Pokemon' link under the stats.
 
     
 
-4.  **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
 ## 🚀 Quick start (Gatsby Cloud)
 

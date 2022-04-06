@@ -11,7 +11,7 @@ const PokeInfo = ({ pageContext: { pokemon } }) => {
   
 
   const PokeTypes = []
-  var typeString1 = ""
+  var typeString1 = "Type: "
 
   for (let i = 0; i<pokemon.types.length;i++)
   {
