@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 import '../components/PokeStyle.css'
-
-
+import Pie from '../components/Pie';
+import { useDispatch } from 'react-redux'
+import { pieDataUpdateAction } from '../redux/pieData/pieActions'
+import { usePieData } from '../redux/pieData/usePieData'
         
 
 
@@ -19,7 +21,9 @@ const PokeInfo = ({ pageContext: { pokemon } }) => {
     typeString1 += pokemon.types[i].type.name + "  "
   }
 
-  
+  const dispatch = useDispatch()
+  const pieDataValues = usePieData()
+  const pieDataUpdateActionFunction = pieDataUpdateAction
 
 return (
   
@@ -41,7 +45,19 @@ return (
 
            
          
-            
+    <>
+      <button onClick={() => dispatch(pieDataUpdateActionFunction())}>
+        Update Data
+      </button>
+      <Pie
+        data={pieDataValues}
+        width={400}
+        height={400}
+        innerRadius={100}
+        outerRadius={200}
+        cornerRadius={15}
+      />
+    </>
         
       
 
