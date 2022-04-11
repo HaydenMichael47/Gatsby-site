@@ -5,7 +5,7 @@ import Pie from '../components/Pie';
 import { useDispatch } from 'react-redux'
 import { pieDataUpdateAction } from '../redux/pieData/pieActions'
 import { usePieData } from '../redux/pieData/usePieData'
-        
+import * as d3 from "d3";
 
 
 const PokeInfo = ({ pageContext: { pokemon } }) => {
@@ -22,7 +22,10 @@ const PokeInfo = ({ pageContext: { pokemon } }) => {
   }
 
   const dispatch = useDispatch()
-  const pieDataValues = usePieData()
+  const pieDataValues = d3.range(6).map((item, index) => ({
+    label: '' + pokemon.stats[index].stat.name + ': ' + pokemon.stats[index].base_stat ,
+    value: pokemon.stats[index].base_stat
+  }));
   const pieDataUpdateActionFunction = pieDataUpdateAction
 
 return (
@@ -50,7 +53,7 @@ return (
         Update Data
       </button>
       <Pie
-        data={pieDataValues}
+        data= {pieDataValues}
         width={400}
         height={400}
         innerRadius={100}
