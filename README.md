@@ -32,7 +32,13 @@
     - To search for specific Pokemon, start typing the name of the Pokemon in the search bar, and it will automatically update with related Pokemon.
     - If there are none, the page will be blank and you have to remove the text from the search bar.
     - To see more information on a particular Pokemon, click the sprite or their name, and you will be taken to a different page with stat information for that particular Pokemon.
-    - To go back to the previous page to look at more Pokemon, click the 'Back to all Pokemon' link under the stats.
+    
+
+4. **Within a Pokemon's page**
+    - Inside a Pokemon's page is information specifically about the Pokemon
+    - This information includes Name, Sprite, Height, Weight, Type(s), and fighting stats
+    - The fighting stats are arranged on a pie chart based on the number the stat represents
+    - To return to the page to search for more pokemon, click the 'Return to all Pokemon' link under the pie chart
 
     
 
