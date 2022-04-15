@@ -15,4 +15,5 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-styled-components",
   ],
+  pathPrefix: "/Gatsby-site",
 };
