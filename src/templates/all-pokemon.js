@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout'
-import Search from '../components/Search'
+
 import useState from 'react';
 
 
@@ -20,7 +20,7 @@ const Pokedex = ({ pageContext: { allPokemon } }) => {
     <h1 style={{ fontFamily: "SF Movie Poster", fontSize: "200%", color: "#e8332a" }}>Choose a Pokémon!</h1>
 
     
-    <Search id = "searchBar" value={search}
+    <input id = "searchBar" value={search}
            onChange={handleSearchChange}/>
 
     <ul style={{ padding: 0, marginLeft: 'auto', marginRight: 'auto'  }}>
