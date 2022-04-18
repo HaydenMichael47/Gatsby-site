@@ -8,12 +8,12 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -32,5 +32,8 @@
     "react-redux": "^7.2.8",
     "redux": "^4.1.2",
     "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

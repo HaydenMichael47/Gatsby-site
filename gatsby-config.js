@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Gatsby-site",
   siteMetadata: {
     title: "My Super Cool Blog",
   },
@@ -15,5 +16,5 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-styled-components",
   ],
-  pathPrefix: "/Gatsby-site",
+  
 };
