@@ -13,7 +13,7 @@ import Navbar from "./Navbar/Navbar"
 // ... import statements
 
 const Layout = ({ pageTitle, children }) => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
       query {
         site {
           siteMetadata {

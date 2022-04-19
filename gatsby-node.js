@@ -4,15 +4,9 @@ const getPokemonData = names =>
   Promise.all(
     names.map(async name => {
       const { data: pokemon } = await get(`/pokemon/${name}`);
-      const abilities = await Promise.all(
-        pokemon.abilities.map(async ({ ability: { name: abilityName } }) => {
-          const { data: ability } = await get(`/ability/${abilityName}`);
+      
 
-          return ability;
-        })
-      );
-
-      return { ...pokemon, abilities};
+      return { ...pokemon};
     })
   );
 
@@ -20,7 +14,7 @@ const getPokemonData = names =>
 
 exports.createPages = async ({ actions: { createPage } }) => {
   var pokeCount = [];
-    for (let i = 1; i <= 151; i++) {
+    for (let i = 1; i <= 100; i++) {
         pokeCount.push(i);
     }
   const allPokemon = await getPokemonData(pokeCount)

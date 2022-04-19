@@ -40,6 +40,13 @@
     - The fighting stats are arranged on a pie chart based on the number the stat represents
     - To return to the page to search for more pokemon, click the 'Return to all Pokemon' link under the pie chart
 
+5. **How to see a build of the Site**
+    - To see a build of the site, follow this link to see a build on github pages: https://haydenmichael47.github.io/Gatsby-site/
+    - There were some complications involving the amount of amount of pokemon pages that can be built, so this build is limited to 8 pokemon to see how it works.
+    - I am currently looking into what might be causing the issue.
+    
+    - The intended build can be viewed from this Gatsby cloud link: https://build-62e6fe20-bb8f-4e81-aac5-5c9d92705695.gtsb.io/
+
     
 
 
