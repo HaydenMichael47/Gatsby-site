@@ -1,10 +1,6 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
+
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby Site with Pokedex Searcher!
 </h1>
 
 ## 🚀 Quick start
@@ -28,6 +24,7 @@
 
     - To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
     - The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
+    ![Pokedex Page](/Gatsby-site/Screenshots/PokedexPage.PNG?raw=true "Pokedex Page")
     - This is done in the 'gatsby-node.js' file.
     - To search for specific Pokemon, start typing the name of the Pokemon in the search bar, and it will automatically update with related Pokemon.
     - If there are none, the page will be blank and you have to remove the text from the search bar.
@@ -50,9 +47,3 @@
     
 
 
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
