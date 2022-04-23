@@ -25,7 +25,7 @@
     - To get to the PokeDex, simply click the 'All Pokemon' tab of the website.
     - The PokeDex lists all the original 151 Pokemon in a list with their name and sprite.
     - <img src="https://github.com/HaydenMichael47/Gatsby-site/tree/main/Screenshots/PokedexPage.PNG" alt="Pokedex Page" title="Pokedex Page">
-    - ![Pokedex Page](https://github.com/HaydenMichael47/Gatsby-site/tree/main/Screenshots/PokedexPage.PNG?raw=true "Pokedex Page")
+    
     - This is done in the 'gatsby-node.js' file.
     - To search for specific Pokemon, start typing the name of the Pokemon in the search bar, and it will automatically update with related Pokemon.
     - If there are none, the page will be blank and you have to remove the text from the search bar.
@@ -33,7 +33,7 @@
     
 
 4. **Within a Pokemon's page**
-    - Inside a Pokemon's page is information specifically about the Pokemon
+    - Inside a <img src="https://github.com/HaydenMichael47/Gatsby-site/tree/main/Screenshots/PokemonPage.PNG" alt="Pokemon's page" title="Pokemon's page"> is information specifically about the Pokemon
     - This information includes Name, Sprite, Height, Weight, Type(s), and fighting stats
     - The fighting stats are arranged on a pie chart based on the number the stat represents
     - To return to the page to search for more pokemon, click the 'Return to all Pokemon' link under the pie chart
